@@ -10,7 +10,7 @@ GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation Enhanced
 </p>
 
 <p align="center">
-<img src="./doc/png/fig.gama.png" width=100% /> <br>
+<img src="doc/png/fig.gama.png" width=100% /> <br>
 <b>Figure 1</b>: The structure of the proposed framework (GAMA).
 </p>
 
@@ -18,11 +18,11 @@ GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation Enhanced
 ## Case Study: Email Processing
 
 <p align="center">
-<img src="./doc/png/fig.email.png" width=100% /> <br>
-<b>Figure 3</b>: GAMA for Email Processing.
+<img src="doc/png/fig.email.png" width=100% /> <br>
+<b>Figure 2</b>: GAMA for Email Processing.
 </p>
 
-> To further evaluate GAMA, we employed it in the email processing. As illustrated in Figure 3, GAMA is required to reply to an email, yet the original message contains private information such as names, phone numbers, organizations, and so on. GAMA initially identifies the private data in the email through the PNER view and PIA view. The primary distinction between the two views is the presence of four named entities: Massachusetts Legislature, John Coffin Talbot, Scott Weiland, and Richard Hawley. The first is a well-known parliamentary organization, while the last three are famous politicians and singer-songwriters. Based on the named entity classification, PNER determines that these are private data. Conversely, PIA owns the common sense of human society, and deems them to be public and non-privacy. Following the fusion of the two views, GAMA also anonymizes the names of famous individuals randomly in order to safeguard contextual privacy. Furthermore, the anonymizing agent employed creates a privacy box for the purpose of mapping placeholders and privacy-named entities. In the public space, GAMA incorporates logic enhancement and knowledge augmentation. For knowledge enhancement, GAMA's DRKE leverages domain rules from the political and artistic fields to extract and complete knowledge about political figures and creative musicians, including their names and experiences, from emails. On the logic enhancement side, GAMA's DLE employs a Disproof approach for logical reasoning. For instance, in the second question, it progressively narrows down the location of the Massachusetts legislature, first General Court, second Boston and final Beacon Hill. In the public space, GAMA generates the reply email with placeholders. In the private space, the placeholders are then restored by the nomination agent in the private space based on the privacy box. And as the figure shown, the final reply email is present without any ammonized placeholders. The case study is further evidence that GAMA's AMPP mechanism is effective in identifying privacy, anonymizing it, and finally safeguarding the privacy in the original text.
+> To further evaluate GAMA, we employed it in the email processing. As illustrated in Figure 2, GAMA is required to reply to an email, yet the original message contains private information such as names, phone numbers, organizations, and so on. GAMA initially identifies the private data in the email through the PNER view and PIA view. The primary distinction between the two views is the presence of four named entities: Massachusetts Legislature, John Coffin Talbot, Scott Weiland, and Richard Hawley. The first is a well-known parliamentary organization, while the last three are famous politicians and singer-songwriters. Based on the named entity classification, PNER determines that these are private data. Conversely, PIA owns the common sense of human society, and deems them to be public and non-privacy. Following the fusion of the two views, GAMA also anonymizes the names of famous individuals randomly in order to safeguard contextual privacy. Furthermore, the anonymizing agent employed creates a privacy box for the purpose of mapping placeholders and privacy-named entities. In the public space, GAMA incorporates logic enhancement and knowledge augmentation. For knowledge enhancement, GAMA's DRKE leverages domain rules from the political and artistic fields to extract and complete knowledge about political figures and creative musicians, including their names and experiences, from emails. On the logic enhancement side, GAMA's DLE employs a Disproof approach for logical reasoning. For instance, in the second question, it progressively narrows down the location of the Massachusetts legislature, first General Court, second Boston and final Beacon Hill. In the public space, GAMA generates the reply email with placeholders. In the private space, the placeholders are then restored by the nomination agent in the private space based on the privacy box. And as the figure shown, the final reply email is present without any ammonized placeholders. The case study is further evidence that GAMA's AMPP mechanism is effective in identifying privacy, anonymizing it, and finally safeguarding the privacy in the original text.
 
 ## Environment Setup
 
@@ -333,8 +333,8 @@ We built a Django-based visualization interface for GAMA, featuring historical d
 > ⚠️ The privacy-preserving in Visualization Interface is coming...
 
 <p align="center">
-<img src="./doc/png/fig.ui.png" width=100% /> <br>
-<b>Figure 2</b>: GAMA Visual UI.
+<img src="doc/png/fig.ui.png" width=100% /> <br>
+<b>Figure 3</b>: GAMA Visual UI.
 </p>
 
 
