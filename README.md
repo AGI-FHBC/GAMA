@@ -189,13 +189,13 @@ if __name__ == "__main__":
 
 **Trivia Creative Writing**  
 - [Link](https://github.com/MikeWangWZHL/Solo-Performance-Prompting/tree/main/data/trivia_creative_writing)  
-- or contact via email: `zhaorenhuo@gmail.com`
+- or contact via email: `anonymous@gmail.com`
 
 > The task tests LLM's ability to retrieve and integrate diverse in-formation from their internal knowledge. In this task, a model must craft a coherent story around a given topic while incorporating answers to N trivia questions. We evaluate the models with N set to 5 and 10, where a higher N requires more extensive domain knowledge. Our benchmark includes 100 instances for each N, totaling 1,000 trivia questions.
 
 **Logic Grid Puzzle**  
 - [Link](https://github.com/MikeWangWZHL/Solo-Performance-Prompting/tree/main/data/logic_grid_puzzle)  
-- or contact via email: `zhaorenhuo@gmail.com`
+- or contact via email: `anonymous@gmail.com`
 
 > The task is from the Bigbench dataset (Srivastava et al., 2023), which comprises 200 instances. Each instance describes a logic puzzle involving 2 to 5 houses, each occupied by a person with specific characteristics, such as playing the piano. The goal is to answer questions about house numbers based on given clues, re-quiring multi-step reasoning and the selection of relevant information. For evaluation, we measure the accuracy of the predicted house numbers by comparing them to the ground truth targets provided by the dataset.
 
@@ -203,7 +203,7 @@ if __name__ == "__main__":
 
 **KPP and LPP**  
 - Available via Hugging Face (not yet publicly released)  
-- or contact via email: `zhaorenhuo@gmail.com`
+- or contact via email: `anonymous@gmail.com`
 
 **Knowledge Privacy Preservation (KPP)**
 
